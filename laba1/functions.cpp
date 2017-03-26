@@ -1,4 +1,4 @@
-#include "iostream"
+/*#include "iostream"
 #include "fstream"
 #include "string"
 using namespace std;
@@ -62,3 +62,4 @@ void Max(struct Team mass1)
 	}
 	file1.close();
 }
+*/
