@@ -1,0 +1,4 @@
+﻿  SecondTry.cpp
+  SecondTry.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
+  Проект10.vcxproj -> C:\Users\trohi\Documents\Visual Studio 2015\Projects\Проект10\Debug\Проект10.exe
+  Проект10.vcxproj -> C:\Users\trohi\Documents\Visual Studio 2015\Projects\Проект10\Debug\Проект10.pdb (Partial PDB)
