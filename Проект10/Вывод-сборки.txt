@@ -1,6 +1,0 @@
-﻿1>------ Сборка начата: проект: Проект10, Конфигурация: Debug Win32 ------
-1>  SecondTry.cpp
-1>  SecondTry.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
-1>  Проект10.vcxproj -> C:\Users\trohi\Documents\Visual Studio 2015\Projects\Проект10\Debug\Проект10.exe
-1>  Проект10.vcxproj -> C:\Users\trohi\Documents\Visual Studio 2015\Projects\Проект10\Debug\Проект10.pdb (Partial PDB)
-========== Сборка: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========

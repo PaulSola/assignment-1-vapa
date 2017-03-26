@@ -1,0 +1,45 @@
+﻿  main.cpp
+..\..\..\..\..\Downloads\main.cpp(35): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note:  см. объявление "strtok"
+..\..\..\..\..\Downloads\main.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+..\..\..\..\..\Downloads\main.cpp(41): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note:  см. объявление "strtok"
+  functions.cpp
+functions.cpp(7): error C2676: бинарный "[": "Devider" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+functions.cpp(7): error C2228: выражение слева от ".line" должно представлять класс, структуру или объединение
+functions.cpp(8): error C2676: бинарный "[": "Devider" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+functions.cpp(8): error C2228: выражение слева от ".Devidedby" должно представлять класс, структуру или объединение
+functions.cpp(11): error C2676: бинарный "[": "Devider" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+functions.cpp(11): error C2228: выражение слева от ".line" должно представлять класс, структуру или объединение
+functions.cpp(15): error C2676: бинарный "[": "Devider" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+functions.cpp(15): error C2228: выражение слева от ".Devidedby" должно представлять класс, структуру или объединение
+functions.cpp(17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note:  см. объявление "strtok"
+functions.cpp(24): error C2065: mass: необъявленный идентификатор
+functions.cpp(24): error C2228: выражение слева от ".point" должно представлять класс, структуру или объединение
+functions.cpp(28): error C2065: mass: необъявленный идентификатор
+functions.cpp(28): error C2228: выражение слева от ".point" должно представлять класс, структуру или объединение
+functions.cpp(30): error C2065: mass: необъявленный идентификатор
+functions.cpp(30): error C2228: выражение слева от ".point" должно представлять класс, структуру или объединение
+functions.cpp(36): error C2065: mass: необъявленный идентификатор
+functions.cpp(36): error C2228: выражение слева от ".name" должно представлять класс, структуру или объединение
+functions.cpp(36): error C2228: выражение слева от ".point" должно представлять класс, структуру или объединение
+functions.cpp(37): error C2065: mass: необъявленный идентификатор
+functions.cpp(37): error C2228: выражение слева от ".name" должно представлять класс, структуру или объединение
+functions.cpp(37): error C2228: выражение слева от ".point" должно представлять класс, структуру или объединение
+functions.cpp(46): error C2065: num: необъявленный идентификатор
+functions.cpp(46): error C2228: выражение слева от ".Devidedby" должно представлять класс, структуру или объединение
+functions.cpp(50): error C2065: num: необъявленный идентификатор
+functions.cpp(50): error C2228: выражение слева от ".Devidedby" должно представлять класс, структуру или объединение
+functions.cpp(54): error C2065: num: необъявленный идентификатор
+functions.cpp(54): error C2228: выражение слева от ".Devidedby" должно представлять класс, структуру или объединение
+functions.cpp(59): error C2065: mass: необъявленный идентификатор
+functions.cpp(59): error C2065: i: необъявленный идентификатор
+functions.cpp(59): error C2228: выражение слева от ".name" должно представлять класс, структуру или объединение
+functions.cpp(59): error C2065: num: необъявленный идентификатор
+functions.cpp(59): error C2228: выражение слева от ".Devidedby" должно представлять класс, структуру или объединение
+functions.cpp(60): error C2065: mass: необъявленный идентификатор
+functions.cpp(60): error C2065: i: необъявленный идентификатор
+functions.cpp(60): error C2228: выражение слева от ".point" должно представлять класс, структуру или объединение
+  Создание кода...
