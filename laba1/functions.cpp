@@ -2,10 +2,9 @@
 #include "fstream"
 #include "string"
 using namespace std;
-void Poisk(struct Devider num1)
+void Poisk()
 {
-	num1[1].line = 0;
-	num1[1].Devidedby = 0;
+	struct Devider 
 	for (int i = 0; i < 22; i++)        // i < 22
 	{
 		char *p = strtok(num1[i].line, ",");  //    num[i] 

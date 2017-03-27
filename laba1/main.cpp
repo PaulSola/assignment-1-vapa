@@ -13,9 +13,6 @@ struct Team {
 	int point;
 } mass[22];
 
-void Poisk(struct Devider num1);
-void Schet(struct Devider num1, struct Team mass1);
-void Max(struct Team mass1);
 int main()
 {
 	setlocale(LC_ALL, "Russian");
