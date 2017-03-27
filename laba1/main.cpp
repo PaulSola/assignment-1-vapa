@@ -1,37 +1,44 @@
 #include "iostream"
-#include "fstream"
+#include <fstream>
 #include "string"
+#pragma warning(disable: 4996)
 using namespace std;
+
+
 struct Devider
 {
 	char line[100] = {};
 	char Devidedby[11] = {};
-} num[22];
+};
 
 struct Team {
 	string name;
 	int point;
-} mass[22];
+};
+void INter(struct Team mass[22], struct Devider num[22]);
+void Middle(struct Team mass[22]);
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
+	struct Devider arg[22];
+	struct Team arn[22];
+	INter(arn, arg);
+	Middle(arn);
+	system("pause");
 
-	
-	ifstream file("premier_league.csv");
-	if (file.fail()) {
-		cout << "\n Ошибка открытия файла ";
-		system("pause");
-		exit(1);
-	}
+}
+void INter(struct Team mass[22], struct Devider num[22])
+{
+	ifstream f("premier_league.csv");
 	int k = 0;
-	while (file)
+	while (f)
 	{
 
-		file.getline(num[k].line, 100);
+		f.getline(num[k].line, 100);
 		k++;
 	}
-	
+	int schet = 0;
 	for (int i = 0; i < 22; i++)        // i < 22
 	{
 		char *p = strtok(num[i].line, ",");  //    num[i] 
@@ -43,7 +50,7 @@ int main()
 			p = strtok(NULL, ",");
 		}
 
-			int schet = 0;
+
 		for (int i = 1; i < 11; i++)
 		{
 			if (num[i].Devidedby[0] > num[i].Devidedby[2])
@@ -62,12 +69,14 @@ int main()
 		mass[i].name = num[0].Devidedby;
 		mass[i].point = schet;
 		schet = 0;
-
 	}
-	//mass[1] = { num[0].Devidedby,schet };
-	//cout << num[0].Devidedby << " has " << schet << " points! " << endl;
-//	cout << mass[3].name << " has " << mass[3].point << " points " << endl;
-	ofstream file1("results.csv");
+	f.close();
+}
+void Middle(struct Team mass[22])
+{
+	cout << mass[3].name << " has " << mass[3].point << " points " << endl;
+	ofstream file1("result.txt");
+
 
 	int Max = mass[1].point;         //Max Element
 	int u = 0;
@@ -90,9 +99,8 @@ int main()
 	file1 << "\t\t\t\t\t" << "##############################################" << "\n";
 
 
-	file.close();
+
 	file1.close();
 	cout << "\n" << mass[u].name << " is a Winner! " << mass[u].point << " points!" << endl;
-	system("pause");
 
 }
