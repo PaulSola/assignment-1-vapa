@@ -1,7 +1,7 @@
 #include "iostream"
 #include <fstream>
 #include "string"
-#pragma warning(disable: 4996)
+//#pragma warning(disable: 4996)
 using namespace std;
 
 
@@ -30,7 +30,15 @@ int main()
 }
 void INter(struct Team mass[22], struct Devider num[22])
 {
-	ifstream f("premier_league.csv");
+	string fname;
+	cout << "name of file:"; cin >> fname;
+	ifstream f(fname);
+	if (!f.is_open())
+	{
+			cout << "\nFile '" << fname << "' не может быть открыт!\n";
+			cout << "name of file:"; cin >> fname;
+	
+	}
 	int k = 0;
 	while (f)
 	{
